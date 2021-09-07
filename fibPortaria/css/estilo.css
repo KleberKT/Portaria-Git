@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+
+body {
+	background: #FFF;
+	font-family: Calibri, Verdana, helvetica, sans-serif;
+	font-size: 14px;
+}
+
+input, select, textarea {
+	padding: 8px;
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+.disabled {
+	color: #3366ff;
+	font-weight: bold;
+}
+
+.limpar {
+	clear: both;
+}
+
+.conteudo {
+	background: #FFF;
+	width: 1280px;
+	position: relative;
+	margin-top: 20px;
+	margin-left: -640px; /* ou seja, ((1280 / 2)*-1) */
+	left: 50%;
+}
+
+.topo1 {
+	color: #FFF;
+	background: #6B8E23;
+	height: 50px;
+	padding-top: 8px;
+	padding-left: 5px;
+}
+
+.topo2 {
+	background: #1F2739;
+	height: 90px;
+	padding: 10px;
+	border-bottom: 10px solid #CCC;
+	margin-bottom: 20px;
+}
+
+.topo2 .w {
+	color: #DDD;
+	font-size: 18px;
+	font-weight: bold;
+	width: 200px;
+	position: absolute;
+	right: 0;
+}
+
+.logo-home {
+	background: url("../imagens_admin/flecha.png") no-repeat;
+	width: 202px;
+	height: 99px;
+	float: left;
+	margin-left: 2%;
+}
+
+.menu {
+	background: #FFF;
+	width: 230px;
+	float: left;
+	border: solid 1px #DDD;
+	margin-right: 1.3%;
+	margin-left: 0%;
+}
+
+.menu h2 {
+	color: #FFF;
+	background: #185875;
+	display: block;
+	padding: 10px 10px;
+	font-weight: 400;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.menu ul {
+	height: auto;
+}
+
+.menu ul li {
+	border-bottom: solid 1px #DDD;
+	padding: 5px 0;
+}
+
+.menu ul li a {
+	display: block;
+	padding: 5px 28px;
+	font-size: 18px;
+	color: #888;
+}
+
+.menu ul li a:hover {
+	color: #000;
+}
+
+.corpo {
+	background: #FFF;
+	width: 80%;
+	min-height: 600px;
+	float: right;
+	border: solid 1px #DDD;
+	padding: 0px;
+	margin-right: 0px;
+}
+
+.corpo h2 {
+	color: #FFF;
+	display: block;
+	background: #185875;
+	border-bottom: solid 1px #DDD;
+	padding: 10px 10px;
+	font-weight: 400;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.corpo h3 {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 70px;
+	color: #000;
+	display: block;
+	background: #FFF;
+	border-top: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+	font-weight: 400;
+	font-size: 1.9em;
+	text-align: left;
+}
+
+.home {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.icone {
+	width: 400px;
+	height: 193px;
+	font-size: 18px;
+	float: left;
+	border: solid 1px #DDD;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 20px;
+	background: #FFF;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 75px;
+}
+
+.icone p {
+	padding-top: 10px;
+}
+
+.rodape {
+	background: #185875;
+	height: 90px;
+	border-top: 10px solid #CCC;
+	text-align: center;
+	color: #FFF;
+	margin-top: 20px;
+}
+
+.rodape p {
+	padding-top: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.logo-rodape {
+	background: url("../imagens_admin/rodapeX.png") no-repeat;
+	margin: 0 auto 0 auto;
+	display: block;
+	width: 243px;
+	height: 66px;
+}
