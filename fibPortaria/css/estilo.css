@@ -105,6 +105,7 @@ a {
 .menu ul li {
 	border-bottom: solid 1px #DDD;
 	padding: 5px 0;
+	/*text-transform: uppercase;*/
 }
 
 .menu ul li a {
@@ -133,6 +134,7 @@ a {
 	display: block;
 	background: #185875;
 	border-bottom: solid 1px #DDD;
+	/*padding: 30px 10px 0 0;*/
 	padding: 10px 10px;
 	font-weight: 400;
 	font-size: 1.3em;
@@ -175,6 +177,244 @@ a {
 
 .icone p {
 	padding-top: 10px;
+}
+
+.but-cadastro a {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	width: 200px;
+	display: block;
+	background: #185875;
+	color: #FFF;
+	text-align: center;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.but-cadastro a:hover {
+	background: #3CB371;
+	color: #fff;
+}
+
+.lista {
+	margin-top: 10px;
+}
+
+.lista table {
+	width: 100%;
+}
+
+.lista table td {
+	padding: 3px 3px;
+	font-size: 16px;
+	border-bottom: solid 1px #DDD;
+}
+
+
+
+
+.lista .stVerm {
+	background: #FF6347;
+	color: #000;
+}
+
+.lista .stAmar {
+	background: #FFF68F;
+	color: #000;
+}
+
+.lista .stLar {
+	background: #BA55D3;
+	color: #000;
+}
+
+.lista .stVerd {
+	background: #A2CD5A;
+	color: #000;
+}
+
+.lista .stBran {
+	background: #FFF;
+	color: #000;
+}
+
+
+
+
+.lista table tr:hover {
+	background: #F2F2F2;
+}
+
+.lista .titulo {
+	background: #DDD;
+}
+
+.lista .titulo td {
+	border-right: 1px solid #CCC;
+	font-weight: bold;
+	color: #222;
+	padding: 10px 0;
+}
+
+.lista .but-acao a {
+	display: block;
+	background: #185875;
+	color: #FFF;
+	text-align: center;
+	padding: 8px;
+	font-size: 15px;
+	border-radius: 5px;
+	min-width: 70px;
+	font-weight: bold;
+}
+
+.lista .but-acao a:hover {
+	background: #3CB371;
+	color: #fff;
+}
+
+.paginacao {
+	width: 100%;
+	padding: 1px;
+	color: #0076A3;
+	text-align: center;
+	font-size: 18px;
+}
+
+.formulario-cab {
+	width: 98%;
+	margin-left: 8px;
+}
+
+.formulario-cab label {
+	margin-top: 3px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.formulario-cab form {
+	margin-top: 10px;
+}
+
+.formulario-cab input, select {
+	width: 50%;
+	background: #FBFBFB;
+	border: solid 1px #DDD;
+}
+
+.formulario-cab .col0010 {
+	margin-left: 0px;
+	width: 10%;
+	float: left;
+}
+
+.formulario-cab .col1515 {
+	margin-left: 15px;
+	width: 15%;
+	float: left;
+}
+
+.formulario-cab .col1065 {
+	margin-left: 10px;
+	width: 65%;
+	float: left;
+}
+
+.formulario-cab .col4 {
+	background: #FFFFFF url("../imagens_admin/lupa_.png") left no-repeat;
+	display: block;
+	float: right;
+	border: solid 5px #FFF;
+	width: 40px;
+	font-size: 15px;
+	color: #000;
+	cursor: pointer;
+}
+
+.formulario {
+	width: 98%;
+	margin-left: 8px;
+}
+
+.formulario form {
+	margin-top: 10px;
+}
+
+.formulario label {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: #000000;
+	font-size: 18px;
+}
+
+.formulario input, select {
+	width: 100%;
+	background: #FBFBFB;
+	border: solid 1px #DDD;
+}
+
+.formulario .but-salvar {
+	width: 150px;
+	background: #185875;
+	border: none;
+	cursor: pointer;
+	color: #FFF;
+	padding: 10px 0;
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.formulario .but-salvar:hover {
+	background: #3CB371;
+	color: #fff;
+}
+
+.formulario .but-cancelar a {
+	width: 150px;
+	float: left;
+	background: #185875;
+	border: none;
+	cursor: pointer;
+	color: #FFF;
+	padding: 10px 0;
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.formulario .but-cancelar a:hover {
+	background: #3CB371;
+	color: #fff;
+}
+
+.formulario .col0 {
+	width: 10%;
+	float: left;
+}
+
+.formulario .col00 {
+	width: 88%;
+	float: right;
+}
+
+.formulario .col1 {
+	width: 49%;
+	float: left;
+}
+
+.formulario .col2 {
+	width: 49%;
+	float: right;
 }
 
 .rodape {
