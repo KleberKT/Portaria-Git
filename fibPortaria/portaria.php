@@ -27,8 +27,8 @@
 
 	if (isset($_POST["enviado"])) {
 
-		@$url_sucesso 	= URL_BASE . "index.php?link=2&ordem=$ordem";
-		@$url_erro 		= URL_BASE . "index.php?link=22";
+		@$url_sucesso 	= URL_BASE . "first.php?link=2&ordem=$ordem";
+		@$url_erro 		= URL_BASE . "first.php?link=22";
 
 		$data 	= date("Y-m-d\TH:i");
 
@@ -151,7 +151,7 @@
 		<input type="submit" value="GRAVAR" class="but-salvar">
 
 		<div class="but-cancelar">
-			<a href="index.php?link=2&ordem=<?php echo $ordem ?>">CANCELAR</a>
+			<a href="first.php?link=2&ordem=<?php echo $ordem ?>">CANCELAR</a>
 		</div>
 
 	</form>

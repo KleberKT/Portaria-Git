@@ -27,7 +27,7 @@
 
 	if (isset($_POST["enviado"])) {
 
-		@$url_sucesso 	= URL_BASE . "index.php?link=2&ordem=$ordem";
+		@$url_sucesso 	= URL_BASE . "first.php?link=2&ordem=$ordem";
 
 		$op = false;
 
@@ -110,7 +110,7 @@
 		<input type="submit" value="GRAVAR" class="but-salvar">
 
 		<div class="but-cancelar">
-			<a href="index.php?link=2&ordem=<?php echo $ordem ?>">CANCELAR</a>
+			<a href="first.php?link=2&ordem=<?php echo $ordem ?>">CANCELAR</a>
 		</div>
 
 	</form>

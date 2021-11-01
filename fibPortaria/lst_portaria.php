@@ -18,11 +18,11 @@
 			$cont = 0;
 
 			echo "<div class='paginacao'>";
-			echo mostraPaginacao("index.php?link=2", $ordem, $lpp, $total);
+			echo mostraPaginacao("first.php?link=2", $ordem, $lpp, $total);
 			echo "</div>";
 			
 			echo "<div class='but-cadastro'>
-			<a href='index.php?link=22&acao=Cadastrar'>Cadastrar</a>
+			<a href='first.php?link=22&acao=Cadastrar'>Cadastrar</a>
 			</div>";
 
 
@@ -78,7 +78,7 @@
 	</table>
 
 	<div class="paginacao">
-		<?php echo mostraPaginacao("index.php?link=2", $ordem, $lpp, $total); ?>
+		<?php echo mostraPaginacao("first.php?link=2", $ordem, $lpp, $total); ?>
 		<?php } ?>
 	</div>
 

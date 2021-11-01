@@ -42,7 +42,7 @@
 		<input type="submit" value="IMPRIMIR" onclick="printpdf()" class="but-salvar">
 
 		<div class="but-cancelar">
-			<a href="index.php?link=2&ordem=<?php echo $ordem ?>">CANCELAR</a>
+			<a href="first.php?link=2&ordem=<?php echo $ordem ?>">CANCELAR</a>
 		</div>
 
 	</form>
@@ -62,7 +62,7 @@
 			if (tipo == 'pdf') {
 				window.open(url+"print.php?inicial="+inicial+"&final="+final);
 			} else {
-				window.open(url+"index.php?link=4&inicial="+inicial+"&final="+final);
+				window.open(url+"first.php?link=4&inicial="+inicial+"&final="+final);
 			}
 			//https://pt.stackoverflow.com/questions/3312/como-redirecionar-o-usu%C3%A1rio-para-outra-p%C3%A1gina-em-javascript-jquery
 		}
