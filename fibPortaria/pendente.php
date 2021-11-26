@@ -4,8 +4,8 @@
 	require("include/crud.php");	
 	require("include/biblio.php");	
 
-	date_default_timezone_set('America/Sao_Paulo');
-	//date_default_timezone_set('America/Cuiaba');
+	//date_default_timezone_set('America/Sao_Paulo');
+	date_default_timezone_set('America/Cuiaba');
 ?>
 <html>
 
@@ -18,10 +18,10 @@
 	</head>
 
 <body>
-
 	<h1><span class="blue">&lt;</span>Recebimento<span class="blue">&gt;</span><span class="yellow"><?php echo date("d-m-Y H:i:s") ?></span></h1>
-	<h2><a href="legenda.php" target="_blank">Legenda</a></h2>
-	
+
+	</table>
+
 	<table class="container">
 		<?php
 			$sql 	= "SELECT * FROM portaria WHERE data_sai IS NULL ORDER BY data_che DESC";
@@ -80,6 +80,40 @@
 		</tbody>
 		<?php }} ?>
 	</table>
+
+					<h1><span class="blue">&lt;</span>Legenda<span class="blue">&gt;</span></h1>
+	<table class="container">
+
+		<thead>
+			<tr>
+				<th><h1>STATUS</h1></th>
+				<th><h1>HISTÓRICO</h1></th>
+				
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td class="stVerd"></td>
+				<td>LIBERADO PARA O PÁTIO</td>
+				
+			</tr>			
+			<tr>
+				<td class="stAmar"></td>
+				<td>PRÉ NOTA, MAS NÃO LIBERADO PARA O PÁTIO</td>
+				
+			</tr>			
+			<tr>
+				<td class="stLar"></td>
+				<td>POSSÍVEL DIVERGÊNCIA - LIBERADO PARA O PATIO MAS SEM PRÉ NOTA</td>
+				
+			</tr>			
+			<tr>
+				<td class="stVerm"></td>
+				<td>AGUARDANDO NA PORTARIA</td>
+				
+			</tr>
+		</tbody>
 
 </body>
 </html>

@@ -7,6 +7,7 @@
 
 	$nome 		= $portaria[0]["nome"];
 	$docto 		= $portaria[0]["docto"];
+	$cpf 		= $portaria[0]["cpf"];
 	$data_che	= (strtotime($portaria[0]["data_che"])?date("Y-m-d\TH:i:s",strtotime($portaria[0]["data_che"])):"");
 	$data_ent	= (strtotime($portaria[0]["data_ent"])?date("Y-m-d\TH:i:s",strtotime($portaria[0]["data_ent"])):"");
 	$data_sai	= (strtotime($portaria[0]["data_sai"])?date("Y-m-d\TH:i:s",strtotime($portaria[0]["data_sai"])):"");
@@ -73,6 +74,9 @@
 		} else {
 			print "<script type = 'text/javascript'> alert('Operação NÃO REALIZADA !!!') </script>";
 		}
+		if (strlen($cpf) != 11) {
+      		$ok =  false;
+    	}
 
 	}
 ?>
@@ -84,11 +88,11 @@
 	<form action="" method="post">
 
 		<div>
-			<label>Nome</label><?php echo @$nome ?>
+			<label>Nome Empresa</label><?php echo @$nome ?>
 		</div>
 		
 		<div>
-			<label>Docto</label><?php echo @$docto ?>
+			<label>Numero Nota</label><?php echo @$docto ?>
 		</div>
 
 		<div>

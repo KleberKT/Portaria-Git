@@ -10,7 +10,7 @@
 
 		function Header(){
 
-			$data_impressao = 'DATA DE IMPRESSAO: ';
+			$data_impressao = 'DATA DE IMPRESSÃO: ';
 			$data_impressao .= date('d/m/Y');
 
 			$this->Cell(560,75,'',1,0,"L");
@@ -21,9 +21,9 @@
 			$this->Cell(0,20,"SYSPOT",0,0,'L');
 			$this->Ln(13);
 			$this->SetFont('Arial','',10);
-			$this->Cell(0,20,"RELATORIO GERAL",0,0,'L');
+			$this->Cell(0,20,"RELATÓRIO GERAL",0,0,'L');
 			$this->Ln(13);
-			$this->Cell(0,20,"ENTRADA E SAIDA DE MOTORISTAS",0,0,'L');
+			$this->Cell(0,20,"ENTRADA E SAÍDA DE MOTORISTAS",0,0,'L');
 			$this->Ln(13);
 			$this->Cell(0,20,$data_impressao,0,0,'L');
 			$this->Ln(13);
@@ -55,11 +55,11 @@
 			$pdf->Cell(10,20,":",0,0,'L');
 			$pdf->Cell(0,20,date("d-m-Y   H:i:s",strtotime($linha["data_ent"])),0,0,'L');
 			$pdf->Ln(11);
-			$pdf->Cell(50,20,"Saida",0,0,'L');
+			$pdf->Cell(50,20,"Saída",0,0,'L');
 			$pdf->Cell(10,20,":",0,0,'L');
 			$pdf->Cell(00,20,date("d-m-Y   H:i:s",strtotime($linha["data_sai"])),0,0,'L');
 			$pdf->Ln(11);
-			$pdf->Cell(50,20,"Docto",0,0,'L');
+			$pdf->Cell(50,20,"Nota",0,0,'L');
 			$pdf->Cell(10,20,": ",0,0,'L');
 			$pdf->Cell(00,20,$linha["docto"],0,0,'L');
 			$pdf->Ln(11);
@@ -79,10 +79,6 @@
 			$pdf->Cell(10,20,":",0,0,'L');
 			$pdf->Cell(00,20,$linha["cpf"],0,0,'L');
 			$pdf->Ln(11);
-			//$pdf->Cell(50,20,"Veiculo",0,0,'L');
-			//$pdf->Cell(10,20,":",0,0,'L');
-			//$pdf->Cell(00,20,$linha["veiculo"],0,0,'L');
-			//$pdf->Ln(11);
 			$pdf->Cell(50,20,"Placa",0,0,'L');
 			$pdf->Cell(10,20,":",0,0,'L');
 			$pdf->Cell(00,20,$linha["placa"],0,0,'L');

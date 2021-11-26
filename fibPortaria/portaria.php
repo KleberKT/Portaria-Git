@@ -77,11 +77,11 @@
 	<form action="" method="post">
 
 		<div class="col1">
-			<label>Nome</label>
+			<label>Nome Empresa</label>
 			<input type="text" required="required" <?php echo @$autofocus ?> name="nome" id="nome" <?php echo @$habilita ?> value="<?php echo @$nome ?>">
 		</div>
 		<div class="col2">
-			<label>Docto</label>
+			<label>Numero Nota</label>
 			<input type="text" required="required" name="docto" id="docto" <?php echo @$habilita ?> value="<?php echo @$docto ?>">
 		</div>
 
@@ -122,12 +122,13 @@
 
 		<div class="col2">
 			<label>CPF</label>
-			<input type="text" name="cpf" id="cpf" <?php echo @$habilita ?> value="<?php echo @$cpf ?>">
+			<input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx" placeholder="000.000.000-00" id="cpf" <?php echo @$habilita ?> value="<?php echo @$cpf ?>">
+			<script type="text/javascript">$("#cpf").mask("xxx.xxx.xxx-xx");</script>
 		</div>
 
 		<div class="col1">
 			<label>CNH</label>
-			<input type="text" name="rg" id="rg" <?php echo @$habilita ?> value="<?php echo @$rg ?>">
+			<input type="text" name="rg" id="rg" pattern="\d{10}" title="Digite uma CNH válida" <?php echo @$habilita ?> value="<?php echo @$rg ?>">
 		</div>
 		<!--
 		<div class="col2">

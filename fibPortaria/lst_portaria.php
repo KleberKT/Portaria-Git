@@ -69,10 +69,10 @@
 			<td align="center"><?php echo $data_cheLb ?></td>
 			<td align="center"><?php echo $data_entLb ?></td>
 			<td align="center"class="<?php echo $status ?>"><?php echo $data_saiLb ?></td>
-			<td><span class="but-acao"><a href="index.php?link=22&id=<?php echo $linha["id"] ?>&acao=Editar&ordem=<?php echo $ordem ?>">Editar</a></span></td>
-			<td><span class="but-acao"><a href="index.php?link=22&id=<?php echo $linha["id"] ?>&acao=Excluir&ordem=<?php echo $ordem ?>">Excluir</a></span></td>
-			<td><span class="but-acao"><a href="index.php?link=23&id=<?php echo $linha["id"] ?>&acao=Entrada&ordem=<?php echo $ordem ?>">Entrada</a></span></td>
-			<td><span class="but-acao"><a href="index.php?link=23&id=<?php echo $linha["id"] ?>&acao=Saida&ordem=<?php echo $ordem ?>">Saída</a></span></td>
+			<td><span class="but-acao"><a href="first.php?link=22&id=<?php echo $linha["id"] ?>&acao=Editar&ordem=<?php echo $ordem ?>">Editar</a></span></td>
+			<td><span class="but-acao"><a href="first.php?link=22&id=<?php echo $linha["id"] ?>&acao=Excluir&ordem=<?php echo $ordem ?>">Excluir</a></span></td>
+			<td><span class="but-acao"><a href="first.php?link=23&id=<?php echo $linha["id"] ?>&acao=Entrada&ordem=<?php echo $ordem ?>">Entrada</a></span></td>
+			<td><span class="but-acao"><a href="first.php?link=23&id=<?php echo $linha["id"] ?>&acao=Saida&ordem=<?php echo $ordem ?>">Saída</a></span></td>
 		</tr>
 		<?php } ?>
 	</table>

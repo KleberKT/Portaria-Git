@@ -32,22 +32,22 @@
 		<tbody>
 			<tr>
 				<td class="stVerd"></td>
-				<td><h3>Liberado pátio</h3></td>
+				<td><h3>LIBERADO PARA O PÁTIO</h3></td>
 				
 			</tr>			
 			<tr>
 				<td class="stAmar"></td>
-				<td><h3>Pré Nota, mas não liberado pátio</h3></td>
+				<td><h3>PRÉ NOTA, MAS NÃO LIBERADO PARA O PÁTIO</h3></td>
 				
 			</tr>			
 			<tr>
 				<td class="stLar"></td>
-				<td><h3>*** possivel ERRO ***  Liberado pátio SEM Pré Nota</h3></td>
+				<td><h3>POSSÍVEL DIVERGÊNCIA - LIBERADO PARA O PATIO MAS SEM PRÉ NOTA</h3></td>
 				
 			</tr>			
 			<tr>
 				<td class="stVerm"></td>
-				<td><h3>Aguardando na portaria . . . </h3></td>
+				<td><h3>AGUARDANDO NA PORTARIA</h3></td>
 				
 			</tr>
 		</tbody>

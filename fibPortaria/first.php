@@ -24,7 +24,6 @@
 			<a href="#" class="logo-home"></a>
 			<div class="w">
 				Empresa Teste<br>SysPot<br><?php echo(date("d/m/Y")); ?>
-				<a class="bt bt-lj" href="#">Sair</a>
 			</div>
 		</div>
 
@@ -35,6 +34,8 @@
 				<li><a href="first.php?link=1">HOME</a></li>
 				<li><a href="first.php?link=2">PORTARIA</a></li>
 				<li><a href="first.php?link=3">RELATÓRIO</a></li>
+				<li><a href="pendente.php" target="_blank">PENDENTE</a></li>
+				<li><a href="logout.php">SAIR</a></li>
 			</ul>
 		</div>
 
